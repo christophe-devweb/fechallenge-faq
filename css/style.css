@@ -1,0 +1,119 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: fit-content;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+    color : hsl(238, 29%, 16%);
+    font-weight: 400;
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+    background-size: fit-content;
+}
+
+header {
+    height: 120px;
+}
+
+section {
+    background-image: url("../images/illustration-woman-online-desktop.svg"),url("../images/bg-pattern-desktop.svg");
+    background-size: auto , 70%;
+    background-position-x: -80px, -250px;
+    background-position-y: 50px, -70px ;
+    background-color: white;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    width: 920px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.box {
+    position : absolute;
+    bottom : 130px;
+    left : -90px;
+}
+
+article {
+    width: 350px;
+    margin: 3px;
+    position: absolute;
+    top : 30px;
+    right : 90px;
+    color: hsl(240, 6%, 50%);
+}
+
+h1 {
+    color: black;
+    font-size: 50px;
+}
+
+.question {
+    cursor: pointer;
+}
+
+.question img {
+    float: right;
+} 
+
+hr {
+    border-color: white;
+}
+
+footer {
+    margin: 20px;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.cache, .illu {
+    display: none;
+}
+
+.gras {
+    font-weight: bolder;
+}
+
+.turn {
+    rotate: 180deg;
+}
+
+@media screen and (max-width: 920px) {
+
+    section {
+        background-image: none;
+        width: 327px;
+    }
+
+    .illu {
+        display: inline-block;
+        position: absolute;
+        top : -110px;
+        right : 45px;
+    }
+
+    article {
+        width : 90%;
+        position: static;
+        margin : 0 auto;
+        padding-top : 50px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .box{
+        display : none;
+    }
+
+}
